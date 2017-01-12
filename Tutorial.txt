@@ -1,0 +1,56 @@
+Anstatt dem & Zeichen -> '&#038;' benutzen
+In Folgenden Dateien stehen die Key's der verschiedenen Abfragen
+
+    -getAlbumDetails.txt
+    -getArtistDetails.txt
+    -getArtistDiscography.txt
+    -getMusicVideos.txt
+    -getTop10Tracks.txt
+    -getTrackDetails.txt
+    
+    
+getMusicDVD                     Nicht integriert
+/preview                        hinter Bild URL (200px)
+search Album by Albumname       Nicht integriert -> Funktioniert nicht
+    
+    
+    
+    
+    
+RunScript(script.getInfo_AudioDB, request=getArtistDetails&#038;artistname=adele)
+
+    request=getArtistDetails
+        artistname
+        artistid
+        artistmbid
+
+    request=getAlbumDetails
+        artistname + albumname
+        albumid
+        albummbid
+    request=getTrackDetails
+        artistname + trackname
+        trackid
+        trackmbid
+        
+
+
+
+<content>plugin://script.getInfo_AudioDB?request=getTop10Tracks&#038;artistname=adele</content>
+        
+    request=getAlbumDetails
+        artistname
+        artistid
+    request=getTrackDetails
+        albumid
+    request=getArtistDiscography
+        artistname
+        artistmbid
+    request=getMusicVideos
+        artistid
+        artistmbid
+    request=getTop10Tracks
+        artistname
+        artistmbid
+        
+        

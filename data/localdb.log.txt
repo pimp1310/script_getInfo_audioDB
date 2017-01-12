@@ -1,0 +1,31 @@
+08.01.2017 13:36:59   [LOCALDB]	[?request=getArtistDetails&artistname=2 Chainz]		 Neuer Request hinzugefuegt!
+08.01.2017 13:37:01   [LOCALDB]	[?request=getArtistDetails&artistname=257ers]		 Neuer Request hinzugefuegt!
+08.01.2017 13:37:04   [LOCALDB]	[?request=getArtistDetails&artistname=5 Seconds Of Summer]		 Neuer Request hinzugefuegt!
+08.01.2017 13:58:01   [LOCALDB]	[?request=getArtistDetails&artistname=Britney Spears]		 Neuer Request hinzugefuegt!
+08.01.2017 13:59:52   [LOCALDB]	[?request=getTrackDetails&artistname=Calvin Harris&trackname=Faith]		 Neuer Request hinzugefuegt!
+08.01.2017 13:59:52   [LOCALDB]	[?request=getTrackDetails&artistname=Calvin Harris&trackname=Faith]		 Neuer Request hinzugefuegt!
+08.01.2017 14:01:41   [LOCALDB]	[?request=getTrackDetails&artistname=Britney Spears&trackname=Oops!...I Did It Again]		 Neuer Request hinzugefuegt!
+08.01.2017 14:01:41   [LOCALDB]	[?request=getTrackDetails&artistname=Britney Spears&trackname=Oops!...I Did It Again]		 Neuer Request hinzugefuegt!
+08.01.2017 14:06:23   [LOCALDB]	[?request=getArtistDetails&artistname=Big Sean]		 Neuer Request hinzugefuegt!
+08.01.2017 14:10:40   [LOCALDB]	[?request=getArtistDetails&artistname=The Black Eyed Peas]		 Neuer Request hinzugefuegt!
+08.01.2017 14:12:13   [LOCALDB]	[?request=getArtistDetails&artistname=Calvin Harris]		 Neuer Request hinzugefuegt!
+08.01.2017 14:13:19   [LOCALDB]	[?request=getAlbumDetails&albumname=Cannibal&artistname=Ke$ha]		 Neuer Request hinzugefuegt!
+08.01.2017 14:13:28   [LOCALDB]	[?request=getAlbumDetails&albumname=Circus&artistname=Britney Spears]		 Neuer Request hinzugefuegt!
+08.01.2017 14:14:14   [LOCALDB]	[?request=getAlbumDetails&albumname=Joanne&artistname=Lady Gaga]		 Neuer Request hinzugefuegt!
+08.01.2017 14:14:30   [LOCALDB]	[?request=getArtistDetails&artistname=Chris Brown]		 Neuer Request hinzugefuegt!
+08.01.2017 14:32:53   [LOCALDB]	[?request=getArtistDetails&artistname=Akon]		 Neuer Request hinzugefuegt!
+08.01.2017 14:33:22   [LOCALDB]	[?request=getArtistDetails&artistname=Ellie Goulding]		 Neuer Request hinzugefuegt!
+08.01.2017 14:37:14   [LOCALDB]	[?request=getAlbumDetails&albumname=Greatest Hits... So Far!!!&artistname=P!nk]		 Neuer Request hinzugefuegt!
+08.01.2017 14:37:27   [LOCALDB]	[?request=getAlbumDetails&albumname=Muttersprache&artistname=Sarah Connor]		 Neuer Request hinzugefuegt!
+08.01.2017 14:37:42   [LOCALDB]	[?request=getAlbumDetails&albumname=Oops!... I Did It Again&artistname=Britney Spears]		 Neuer Request hinzugefuegt!
+08.01.2017 14:37:50   [LOCALDB]	[?request=getAlbumDetails&albumname=Purpose&artistname=Justin Bieber]		 Neuer Request hinzugefuegt!
+08.01.2017 14:38:01   [LOCALDB]	[?request=getAlbumDetails&albumname=Rebirth&artistname=Jennifer Lopez]		 Neuer Request hinzugefuegt!
+08.01.2017 14:38:24   [LOCALDB]	[?request=getAlbumDetails&albumname=This Is Acting&artistname=Sia]		 Neuer Request hinzugefuegt!
+08.01.2017 14:38:55   [LOCALDB]	[?request=getArtistDetails&artistname=Snoop Dogg]		 Neuer Request hinzugefuegt!
+08.01.2017 14:39:33   [LOCALDB]	[?request=getTrackDetails&artistname=Beyoncé&trackname=XO]		 Neuer Request hinzugefuegt!
+08.01.2017 14:40:14   [LOCALDB]	[?request=getTrackDetails&artistname=Miley Cyrus&trackname=Wrecking Ball]		 Neuer Request hinzugefuegt!
+08.01.2017 14:40:15   [LOCALDB]	[?request=getAlbumDetails&albumid=2192644]		 Neuer Request hinzugefuegt!
+08.01.2017 14:40:35   [LOCALDB]	[?request=getTrackDetails&artistname=Britney Spears&trackname=Work Bitch]		 Neuer Request hinzugefuegt!
+08.01.2017 14:40:35   [LOCALDB]	[?request=getAlbumDetails&albumid=2179607]		 Neuer Request hinzugefuegt!
+12.01.2017 11:00:18   [LOCALDB]	[?request=getAlbumDetails&albumname=Femme Fatale&artistname=Britney Spears]		 Neuer Request hinzugefuegt!
+12.01.2017 11:01:44   [LOCALDB]	[?request=getArtistDetails&artistname=David Guetta]		 Neuer Request hinzugefuegt!
