@@ -3,7 +3,10 @@
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
-	<extension point="xbmc.python.script" library="script.py"/>
-	<extension point="xbmc.python.pluginsource" library="plugin.py"/>
-      
+	<extension point="xbmc.python.script" library="script.py">
+        <provides>audio</provides>
+	</extension>
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>audio</provides>
+	</extension>
 </addon>

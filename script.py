@@ -16,28 +16,28 @@ import os
 addon = xbmcaddon.Addon()
 addon_path = addon.getAddonInfo('path').decode('utf-8')
 
-komm_path = addon_path + '\data\script.opened'
+# komm_path = addon_path + '\data\script.opened'
 
-def komm_aufbauen():
-    f = open(komm_path, 'w')
-    f.close()
-    while not os.path.isfile(komm_path):
-        pass
+# def komm_aufbauen():
+    # f = open(komm_path, 'w')
+    # f.close()
+    # while not os.path.isfile(komm_path):
+        # pass
 
-def komm_beenden():
-    os.remove(komm_path)
-    while os.path.isfile(komm_path):
-        pass
+# def komm_beenden():
+    # os.remove(komm_path)
+    # while os.path.isfile(komm_path):
+        # pass
 
 # Warten bis andere Script-Ausfuehrungen beendet sind
-while os.path.isfile(komm_path):
-    pass
+# while os.path.isfile(komm_path):
+    # pass
 
-komm_aufbauen()
+# komm_aufbauen()
 
 # Lokale Datenbank laden
-localdb_path = addon_path + '\data\script.localdb.json'
-Database = localdb.load_db(localdb_path)
+# localdb_path = addon_path + '\data\script.localdb.json'
+# Database = localdb.load_db(localdb_path)
 
 # Lokale Datenbank
 log_path = addon_path + '\data\script.log.txt'
@@ -56,7 +56,7 @@ windowid = 10135
 xbmcgui.Window(windowid).clearProperties()
 
 def exit():
-    komm_beenden()
+    # komm_beenden()
     sys.exit(0)
 
 def getParams(url):
@@ -125,29 +125,33 @@ data = None
 if API_URL == '':
     log.log(log_path, '[' + req + ']\t\t Fehler: Fuer die uebergebenen Parameter konnte keine passende API gefunden werden!')
     exit()
-else:
+# else:
     # Aufruf vorhanden?
-    if req in Database['requests']:
+    # if req in Database['requests']:
         # Timestamp noch aktuell (7 Tage = 604800)
-        diff = time.time() - Database['requests'][req]['timestamp']
-        if diff > 604800:
+        # diff = time.time() - Database['requests'][req]['timestamp']
+        # if diff > 604800:
             # Neue Daten laden da vorhandene Daten zu alt
-            log.log(log_path, '[' + req + ']\t\t Die Daten in der DB sind zu alt!')
-            tmp = GetJASONFromUrl(API_URL)
-            localdb.update(Database, req, tmp)
-            localdb.sav_db(localdb_path, Database)
-            data = Database['requests'][req]
-        else:
+            # log.log(log_path, '[' + req + ']\t\t Die Daten in der DB sind zu alt!')
+            # tmp = GetJASONFromUrl(API_URL)
+            # localdb.update(Database, req, tmp)
+            # localdb.sav_db(localdb_path, Database)
+            # data = Database['requests'][req]
+        # else:
             # LocalDB benutzen
-            log.log(log_path, '[' + req + ']\t\t Daten aus DB geladen!')
-            data = Database['requests'][req]
-    else:
+            # log.log(log_path, '[' + req + ']\t\t Daten aus DB geladen!')
+            # data = Database['requests'][req]
+    # else:
         # Neue Daten laden da noch nicht vorhanden
-        log.log(log_path, '[' + req + ']\t\t Daten in DB nicht gefunden!')
-        tmp = GetJASONFromUrl(API_URL)
-        localdb.update(Database, req, tmp)
-        localdb.sav_db(localdb_path, Database)
-        data = Database['requests'][req]
+        # log.log(log_path, '[' + req + ']\t\t Daten in DB nicht gefunden!')
+        # tmp = GetJASONFromUrl(API_URL)
+        # localdb.update(Database, req, tmp)
+        # localdb.sav_db(localdb_path, Database)
+        # data = Database['requests'][req]
+
+
+data = GetJASONFromUrl(API_URL)
+
 
 def getArtistDetails(dat):
     #Daten vorhanden?
@@ -213,4 +217,4 @@ elif param['request'] == 'getTrackDetails':
     getTrackDetails(data)
 
 log.log(log_path, 'Ende')
-exit()
+# exit()
